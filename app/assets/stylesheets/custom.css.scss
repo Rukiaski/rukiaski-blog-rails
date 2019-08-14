@@ -1,2 +1,33 @@
+$navbar-default-bg: #FFEFE4;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import url(https://fonts.googleapis.com/css?family=Tangerine);
+
+#logo_rukiaski{
+    font: italic;
+}
+
+.center{
+    text-align: center;
+}
+
+.jumbotron{
+    background-image: asset-url('cat.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+}
+
+.jumbotron h2{
+    font-family: 'Tangerine', serif;
+    color: #F69195;
+    font-size: 100px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.footer{
+    border-top: 1px solid #FDEEE8;
+    text-align: center;
+}
