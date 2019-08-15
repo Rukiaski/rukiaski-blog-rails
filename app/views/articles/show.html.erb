@@ -1,6 +1,8 @@
-<h3 align="center"><%= @article.title %></h3>
+<div class="article-title">
+    <h1 align="center"><%= @article.title %></h3>
+</div>
 <div class="well col-xs-8 col-xs-offset-2">
-    <div class="show-article">
+    <div class="article-body">
         <%= simple_format(@article.description) %>
     </div>
     <div class="article-actions">

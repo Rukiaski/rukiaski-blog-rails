@@ -30,10 +30,22 @@ $navbar-default-bg: #FFEFE4;
     font-weight: bold;
 }
 
-.show-article{
+.article-body{
     font-family: 'Dosis', sans-serif;
     font-size: large;
     text-align: justify;
+    border-top: 1px solid #FCE7E4;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.article-title{
+    font-family: 'Varela Round', sans-serif;
+    font-size: large;
+}
+
+.well{
+    background-color: #FFFBF5;
 }
 
 .article-actions{
