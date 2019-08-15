@@ -3,6 +3,9 @@ $navbar-default-bg: #FFEFE4;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import url(https://fonts.googleapis.com/css?family=Tangerine);
+@import url(https://fonts.googleapis.com/css?family=Libre+Caslon+Display&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Dosis&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Varela+Round&display=swap);
 
 #logo_rukiaski{
     font: italic;
@@ -25,6 +28,17 @@ $navbar-default-bg: #FFEFE4;
     font-size: 100px;
     text-align: center;
     font-weight: bold;
+}
+
+.show-article{
+    font-family: 'Dosis', sans-serif;
+    font-size: large;
+    text-align: justify;
+}
+
+.article-actions{
+    border-top: 1px solid #FCE7E4;
+    padding-top: 5px;
 }
 
 .footer{
